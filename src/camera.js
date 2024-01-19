@@ -24,11 +24,12 @@ class Camera {
 
     if (iOS) {
       constraints = {
-        facingMode: {
+          video: {
+    facingMode: {
       exact: "environment"
     }
+  }
         }
-      }
     } else {
       constraints = {
         audio: false,
