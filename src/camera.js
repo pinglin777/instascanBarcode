@@ -28,7 +28,7 @@ class Camera {
       exact: "environment"
     }
         }
-      };
+      }
     } else {
       constraints = {
         audio: false,
