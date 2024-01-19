@@ -24,17 +24,9 @@ class Camera {
 
     if (iOS) {
       constraints = {
-        audio: false,
         facingMode: {
       exact: "environment"
-    },
-          mandatory: {
-            sourceId: this.id,
-            minWidth: 600,
-            maxWidth: 800,
-            minAspectRatio: 1.6
-          },
-          optional: []
+    }
         }
       };
     } else {
