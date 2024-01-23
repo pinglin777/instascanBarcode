@@ -83,6 +83,7 @@ class ScanProvider {
 }
 
 class Analyzer {
+  alert("test");
   constructor(video) {
     this.video = video;
 
