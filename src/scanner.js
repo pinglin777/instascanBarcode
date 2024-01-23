@@ -123,7 +123,7 @@ class Analyzer {
       this.canvas.width = this.sensorWidth;
       this.canvas.height = this.sensorHeight;
 
-      this.canvasContext = this.canvas.getContext('2d');
+      this.canvasContext = this.canvas.getContext('1d');
       this.imageBuffer = ZXing._resize(this.sensorWidth, this.sensorHeight);
       return null;
     }
